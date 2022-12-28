@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:elevation="8dp"
+        android:background="#D6D3D3">
+
+        <TextView
+            android:id="@+id/inputText"
+            android:layout_width="250dp"
+            android:layout_height="411dp"
+            android:padding="5dp"
+            android:textColor="#99000000"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/Outputtxt"
+            android:layout_width="114dp"
+            android:layout_height="109dp"
+            android:layout_gravity="bottom"
+            android:gravity="end"
+            android:padding="5dp"
+            android:text="4.0"
+            android:textColor="@color/black"
+            android:textSize="60sp" />
+
+
+    </LinearLayout>
+    <!-- write your code here. you can do whatever you want, but start from here. you can give it linear layout and other layouts. -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/nummosavi"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:background="#FF5722"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginBottom="5dp"
+            android:layout_marginEnd="20dp"
+            android:text="@string/mosavi"
+            android:textSize="50sp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/numjame"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:background="#00FF5722"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginBottom="90dp"
+            android:layout_marginEnd="20dp"
+            android:text="@string/bezafe"
+            android:textSize="45sp"
+            android:textColor="#FF5722"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/nummenha"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:background="#00FF5722"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginBottom="180dp"
+            android:layout_marginEnd="20dp"
+            android:text="@string/menhi"
+            android:textSize="60sp"
+            android:textColor="#FF5722"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/numzarb"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:background="#00FF5722"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginBottom="270dp"
+            android:layout_marginEnd="20dp"
+            android:text="@string/x"
+            android:textColor="#FF5722"
+            android:textSize="30sp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/nemtaghsim"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:background="#00FF5722"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginBottom="360dp"
+            android:layout_marginEnd="20dp"
+            android:text="@string/ttt"
+            android:textColor="#FF5722"
+            android:textSize="40sp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/nemnohgte"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:background="#00FF5722"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginBottom="5dp"
+            android:layout_marginEnd="110dp"
+            android:text="@string/nighto"
+            android:textSize="40sp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/num3"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:background="#00FF5722"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginBottom="90dp"
+            android:layout_marginEnd="110dp"
+            android:text="@string/_3"
+            android:textSize="40sp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/num6"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:background="#00FF5722"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginBottom="180dp"
+            android:layout_marginEnd="110dp"
+            android:text="@string/_6"
+            android:textSize="40sp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/num9"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:background="#00FF5722"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginBottom="270dp"
+            android:layout_marginEnd="110dp"
+            android:text="@string/_9"
+            android:textSize="40sp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/numbaghimandh"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:background="#00FF5722"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginBottom="360dp"
+            android:layout_marginEnd="110dp"
+            android:text="@string/baghmando"
+            android:textSize="30sp"
+            android:textColor="#FF5722"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/num0"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:background="#00FF5722"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginBottom="5dp"
+            android:layout_marginEnd="200dp"
+            android:text="@string/_0"
+            android:textSize="40sp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/num2"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:background="#00FF5722"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginBottom="90dp"
+            android:layout_marginEnd="200dp"
+            android:text="@string/_2"
+            android:textSize="40sp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/num5"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:background="#00FF5722"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginBottom="180dp"
+            android:layout_marginEnd="200dp"
+            android:text="@string/_5"
+            android:textSize="40sp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/num8"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:background="#00FF5722"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginBottom="270dp"
+            android:layout_marginEnd="200dp"
+            android:text="@string/_8"
+            android:textSize="40sp"/>
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/num1"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:background="#00FF5722"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginBottom="90dp"
+            android:layout_marginEnd="290dp"
+            android:text="@string/_1"
+            android:textSize="40sp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/num4"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:background="#00FF5722"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginBottom="180dp"
+            android:layout_marginEnd="290dp"
+            android:text="@string/_4"
+            android:textSize="40sp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/num7"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:background="#00FF5722"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginBottom="270dp"
+            android:layout_marginEnd="290dp"
+            android:text="@string/_7"
+            android:textSize="40sp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/numC"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:background="#00FF5722"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginBottom="360dp"
+            android:layout_marginEnd="290dp"
+            android:text="@string/c"
+            android:textColor="#FF5722"
+            android:textSize="40sp"/>
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</LinearLayout>

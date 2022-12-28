@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="todo">TODO</string>
+    <string name="welcome">welcome</string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="_4">4</string>
+    <string name="_5">5</string>
+    <string name="_6">6</string>
+    <string name="_7">7</string>
+    <string name="_8">8</string>
+    <string name="_9">9</string>
+    <string name="mosavi">=</string>
+    <string name="bezafe">+</string>
+    <string name="menhi">-</string>
+    <string name="x">x</string>
+    <string name="c">C</string>
+    <string name="delete">Delete</string>
+    <string name="baghmando">%</string>
+    <string name="_0">0</string>
+    <string name="nighto">.</string>
+    <string name="_4_5">4*5</string>
+    <string name="_3_4">3.4</string>
+    <string name="ttt">/</string>
+    <string name="_2_2">2+2</string>
+    <string name="_0_4">0.4</string>
+</resources>
